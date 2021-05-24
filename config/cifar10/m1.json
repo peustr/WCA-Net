@@ -1,0 +1,18 @@
+{
+    "dataset": "cifar10",
+    "num_classes": 10,
+    "pretrained": null,
+    "batch_size": 128,
+    "num_epochs": 600,
+    "feature_dim": 32,
+    "lr": 0.01,
+    "wd": 0.0001,
+    "training_type": "stochastic",
+    "var_type": "isotropic",
+    "device": "cuda:1",
+    "output_path": {
+        "stats": "output/stats/wcanet_cifar10_m1",
+        "models": "output/models/wcanet_cifar10_m1"
+    },
+    "monte_carlo_runs": 50
+}

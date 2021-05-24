@@ -1,0 +1,18 @@
+{
+    "dataset": "cifar100",
+    "num_classes": 100,
+    "pretrained": null,
+    "batch_size": 128,
+    "num_epochs": 600,
+    "feature_dim": 256,
+    "lr": 0.01,
+    "wd": 0.0001,
+    "training_type": "stochastic",
+    "var_type": "anisotropic",
+    "device": "cuda:2",
+    "output_path": {
+        "stats": "output/stats/wcanet_cifar100_m2",
+        "models": "output/models/wcanet_cifar100_m2"
+    },
+    "monte_carlo_runs": 50
+}

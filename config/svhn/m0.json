@@ -1,0 +1,18 @@
+{
+    "dataset": "svhn",
+    "num_classes": 10,
+    "pretrained": null,
+    "batch_size": 128,
+    "num_epochs": 600,
+    "feature_dim": 32,
+    "lr": 0.001,
+    "wd": 0.0,
+    "training_type": "vanilla",
+    "var_type": null,
+    "device": "cuda:0",
+    "output_path": {
+        "stats": "output/stats/wcanet_svhn_m0",
+        "models": "output/models/wcanet_svhn_m0"
+    },
+    "monte_carlo_runs": 50
+}

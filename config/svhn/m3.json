@@ -1,0 +1,22 @@
+{
+    "dataset": "svhn",
+    "num_classes": 10,
+    "pretrained": null,
+    "batch_size": 128,
+    "num_epochs": 600,
+    "feature_dim": 32,
+    "lr": 0.01,
+    "wd": 0.0001,
+    "training_type": "stochastic+adversarial",
+    "w_ct": 0.0,
+    "w_at": 1.0,
+    "attack": "pgd",
+    "epsilon": 0.03,
+    "var_type": "anisotropic",
+    "device": "cuda:3",
+    "output_path": {
+        "stats": "output/stats/wcanet_svhn_m3",
+        "models": "output/models/wcanet_svhn_m3"
+    },
+    "monte_carlo_runs": 50
+}
